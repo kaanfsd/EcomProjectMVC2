@@ -1,4 +1,4 @@
-namespace EcomProjectMVC.Models
+namespace Ecom.Models
 {
     public class ErrorViewModel
     {

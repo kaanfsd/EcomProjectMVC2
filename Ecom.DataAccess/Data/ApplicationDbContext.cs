@@ -1,7 +1,7 @@
-﻿using EcomProjectMVC.Models;
+﻿using Ecom.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EcomProjectMVC.Data
+namespace EcomProjectMVC.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

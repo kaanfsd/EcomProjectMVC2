@@ -1,5 +1,5 @@
-﻿using EcomProjectMVC.Data;
-using EcomProjectMVC.Models;
+﻿using Ecom.Models;
+using EcomProjectMVC.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcomProjectMVC.Controllers

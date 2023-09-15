@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace EcomProjectMVC.Migrations
+namespace EcomProjectMVC.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration
