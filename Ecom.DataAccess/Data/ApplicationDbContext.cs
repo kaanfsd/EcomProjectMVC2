@@ -28,10 +28,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "High-performance smartphone with 6.4-inch display.",
                     Barcode = "SMP12345",
                     Manufacturer = "Samsung",
-                    ListPrice = 499.99,
-                    Price = 449.99,
-                    Price50 = 429.99,
-                    Price100 = 399.99
+                    ListPrice = 500,
+                    Price = 450,
+                    Price50 = 430,
+                    Price100 = 400,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -40,10 +42,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Thin and light laptop with Intel Core i7 processor.",
                     Barcode = "LTPT67890",
                     Manufacturer = "Dell",
-                    ListPrice = 1099.99,
-                    Price = 999.99,
-                    Price50 = 949.99,
-                    Price100 = 899.99
+                    ListPrice = 1100,
+                    Price = 1000,
+                    Price50 = 950,
+                    Price100 = 900,
+                    CategoryId =13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -52,10 +56,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "55-inch 4K Ultra HD Smart LED TV with HDR.",
                     Barcode = "TV1234",
                     Manufacturer = "Sony",
-                    ListPrice = 799.99,
-                    Price = 699.99,
-                    Price50 = 649.99,
-                    Price100 = 599.99
+                    ListPrice = 800,
+                    Price = 700,
+                    Price50 = 650,
+                    Price100 = 600,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -64,10 +70,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Bluetooth wireless earbuds with noise cancellation.",
                     Barcode = "EB5678",
                     Manufacturer = "Apple",
-                    ListPrice = 199.99,
-                    Price = 179.99,
-                    Price50 = 169.99,
-                    Price100 = 159.99
+                    ListPrice = 200,
+                    Price = 180,
+                    Price50 = 170,
+                    Price100 = 160,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -76,10 +84,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "20MP digital camera with 3-inch LCD screen.",
                     Barcode = "CAM4567",
                     Manufacturer = "Canon",
-                    ListPrice = 299.99,
-                    Price = 249.99,
-                    Price50 = 239.99,
-                    Price100 = 229.99
+                    ListPrice = 300,
+                    Price = 250,
+                    Price50 = 240,
+                    Price100 = 230,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -88,10 +98,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Programmable coffee maker with built-in grinder.",
                     Barcode = "CM7890",
                     Manufacturer = "Breville",
-                    ListPrice = 129.99,
-                    Price = 109.99,
-                    Price50 = 99.99,
-                    Price100 = 89.99
+                    ListPrice = 130,
+                    Price = 110,
+                    Price50 = 100,
+                    Price100 = 90,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -100,10 +112,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Waterproof fitness tracker with heart rate monitor.",
                     Barcode = "FIT123",
                     Manufacturer = "Fitbit",
-                    ListPrice = 79.99,
-                    Price = 69.99,
-                    Price50 = 64.99,
-                    Price100 = 59.99
+                    ListPrice = 80,
+                    Price = 70,
+                    Price50 = 65,
+                    Price100 = 60,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -112,10 +126,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Durable backpack with multiple compartments.",
                     Barcode = "BP5678",
                     Manufacturer = "North Face",
-                    ListPrice = 59.99,
-                    Price = 49.99,
-                    Price50 = 47.99,
-                    Price100 = 44.99
+                    ListPrice = 60,
+                    Price = 50,
+                    Price50 = 48,
+                    Price100 = 45,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -124,10 +140,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Ergonomic office chair with lumbar support.",
                     Barcode = "CHAIR999",
                     Manufacturer = "Herman Miller",
-                    ListPrice = 399.99,
-                    Price = 349.99,
-                    Price50 = 329.99,
-                    Price100 = 299.99
+                    ListPrice = 400,
+                    Price = 350,
+                    Price50 = 330,
+                    Price100 = 300,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -136,10 +154,12 @@ namespace EcomProjectMVC.DataAccess.Data
                     Description = "Running sneakers with cushioned soles.",
                     Barcode = "SNK1234",
                     Manufacturer = "Nike",
-                    ListPrice = 129.99,
-                    Price = 119.99,
-                    Price50 = 109.99,
-                    Price100 = 99.99
+                    ListPrice = 130,
+                    Price = 120,
+                    Price50 = 110,
+                    Price100 = 100,
+                    CategoryId = 13,
+                    ImageUrl = ""
                 }
 
                 );

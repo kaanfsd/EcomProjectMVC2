@@ -3,6 +3,7 @@ using EcomProjectMVC.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcomProjectMVC.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230917140845_addForeignKeyForCategoryProductRelation")]
+    partial class addForeignKeyForCategoryProductRelation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -81,10 +84,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<double>("ListPrice")
                         .HasColumnType("float");
 
@@ -118,7 +117,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "SMP12345",
                             CategoryId = 13,
                             Description = "High-performance smartphone with 6.4-inch display.",
-                            ImageUrl = "",
                             ListPrice = 500.0,
                             Manufacturer = "Samsung",
                             Price = 450.0,
@@ -132,7 +130,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "LTPT67890",
                             CategoryId = 13,
                             Description = "Thin and light laptop with Intel Core i7 processor.",
-                            ImageUrl = "",
                             ListPrice = 1100.0,
                             Manufacturer = "Dell",
                             Price = 1000.0,
@@ -146,7 +143,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "TV1234",
                             CategoryId = 13,
                             Description = "55-inch 4K Ultra HD Smart LED TV with HDR.",
-                            ImageUrl = "",
                             ListPrice = 800.0,
                             Manufacturer = "Sony",
                             Price = 700.0,
@@ -160,7 +156,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "EB5678",
                             CategoryId = 13,
                             Description = "Bluetooth wireless earbuds with noise cancellation.",
-                            ImageUrl = "",
                             ListPrice = 200.0,
                             Manufacturer = "Apple",
                             Price = 180.0,
@@ -174,7 +169,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "CAM4567",
                             CategoryId = 13,
                             Description = "20MP digital camera with 3-inch LCD screen.",
-                            ImageUrl = "",
                             ListPrice = 300.0,
                             Manufacturer = "Canon",
                             Price = 250.0,
@@ -188,7 +182,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "CM7890",
                             CategoryId = 13,
                             Description = "Programmable coffee maker with built-in grinder.",
-                            ImageUrl = "",
                             ListPrice = 130.0,
                             Manufacturer = "Breville",
                             Price = 110.0,
@@ -202,7 +195,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "FIT123",
                             CategoryId = 13,
                             Description = "Waterproof fitness tracker with heart rate monitor.",
-                            ImageUrl = "",
                             ListPrice = 80.0,
                             Manufacturer = "Fitbit",
                             Price = 70.0,
@@ -216,7 +208,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "BP5678",
                             CategoryId = 13,
                             Description = "Durable backpack with multiple compartments.",
-                            ImageUrl = "",
                             ListPrice = 60.0,
                             Manufacturer = "North Face",
                             Price = 50.0,
@@ -230,7 +221,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "CHAIR999",
                             CategoryId = 13,
                             Description = "Ergonomic office chair with lumbar support.",
-                            ImageUrl = "",
                             ListPrice = 400.0,
                             Manufacturer = "Herman Miller",
                             Price = 350.0,
@@ -244,7 +234,6 @@ namespace EcomProjectMVC.DataAccess.Migrations
                             Barcode = "SNK1234",
                             CategoryId = 13,
                             Description = "Running sneakers with cushioned soles.",
-                            ImageUrl = "",
                             ListPrice = 130.0,
                             Manufacturer = "Nike",
                             Price = 120.0,
